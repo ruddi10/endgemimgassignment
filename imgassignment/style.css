@@ -1,0 +1,286 @@
+html{
+  font-size: 15px;
+}
+
+
+
+*{
+  box-sizing: border-box;
+   font-family: 'Poppins',sans-serif ;
+}
+.topnav {
+  display: flex;
+  background-color: #333;
+  justify-content: space-between;
+  flex-flow: row;
+  width: max-c
+}
+body{
+  margin: 0;
+  background-color: black;
+}
+.logo{
+  height:auto;
+  width:7rem;
+  padding: 0.5rem;
+  padding-bottom: 0;
+}
+.course{
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+}
+.topnav span {
+  float: right;
+  color: #f2f2f2;
+  padding: 14px 19px;
+
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+/* Style the links inside the navigation bar */
+
+/* Change the color of links on hover */
+.topnav .hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+ .topnav .active {
+  background-color: #4CAF50;
+  color: white;
+}
+a:focus,button:focus{
+  outline: none !important; 
+  border: none;
+}
+.dropdown{
+  display: none;
+}
+
+.add{
+   color: #4CAF50;
+   padding: 0.5rem;
+   width: 3rem;
+   height: 3rem;
+   border: none;
+   background-color: transparent;
+  font-weight: bold;
+   text-decoration: none;
+   font-size: 3rem;
+
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  transition: 0.3s;
+  display: inline;  
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.side{
+  display: flex;
+  padding: 1rem;
+}
+.add b{
+  font-size: 3rem;
+}
+
+.c1{
+  background-color: #4CAF50;
+  display: flex;
+  width: 96%;
+  margin: auto;
+  padding: 1rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+
+}
+.c1 h6{
+display: inline;
+padding: 0.4rem;
+font-size: 2rem;
+font-weight: bold;
+}
+.hidden{
+  display: none ;
+}
+.wrap{
+  display: flex;
+  background-color: #4CAF50;
+  width: 70%;
+  margin: 1rem auto;
+  border-radius: 4px;
+  padding: 2rem 0;
+  flex-direction: column;
+}
+.wrap div{
+  align-self: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.myform{
+  align-self: center;
+  margin-top: 2rem;
+}
+.inputvalue{
+  width: 100%;
+  padding: 0.7rem;
+  margin: 1rem;
+}
+.upload{
+  width: 90%;
+  padding: 0.5rem;
+  margin: 0.7rem;
+}
+.submitbutton{
+  background-color: orange;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.backbutton{
+  background-color: #3498db;
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.num{
+  padding: 0.2rem;
+}
+.cs1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.com{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0.8rem;
+  margin: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+.text{
+  text-align: center;
+  color: white;o
+  font-weight: bold;
+  font-size: 2rem;
+}
+.download{
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+@media screen and (max-width:700px){
+html{
+  font-size: 10px;
+}
+
+.dropdown{
+  display: inline; 
+  margin-top: 1rem;
+  
+}
+.dropdown .btn{
+  background-color: transparent;
+  color: #4CAF50;
+  border-color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+  border-bottom: 2px solid white;
+}
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  color: red;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  color: red;
+
+}
+
+.course{
+  display: none;
+}
+.add{
+  margin-top: 1.1rem;
+}
+.com{
+  margin: 1rem;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.wrap{
+  width: 90%;
+  border-radius: 8px;
+  margin: 5rem auto;
+}
+.myform{
+  padding: 2rem;
+}
+.wrap div{
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+.inputvalue{
+  width: 95%;
+}
+.submitbutton,.backbutton{
+  padding: 1rem;
+  margin: 0.8rem;
+  border-radius: 8px;
+}
+ .topnav #mc{
+  color:  #4CAF50;
+  font-size: 1.7rem;
+  padding: 8px 18px;
+}
+
+
+}
