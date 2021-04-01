@@ -5,7 +5,7 @@ require 'dbconfig/config.php';
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ADD MATERIAL</title>
+	<title>ADD MATERIAL changes</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
